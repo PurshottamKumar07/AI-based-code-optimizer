@@ -1,6 +1,7 @@
-# AI Code Optimizer 
+# AI Code Optimizer  
 
-An intelligent desktop application that analyzes, fixes, and optimizes source code using rule-based techniques and machine learning. It provides real-time error detection, automatic correction, and multiple compiler-level optimizations through a Tkinter GUI.
+An intelligent desktop application that analyzes, fixes, and optimizes source code using rule-based techniques and machine learning. It provides real-time error detection, automatic correction, and multiple compiler-level optimizations through a Tkinter GUI.     
+
 
 ---
 
