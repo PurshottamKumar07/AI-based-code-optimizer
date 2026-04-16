@@ -57,11 +57,15 @@ An intelligent desktop application that analyzes, fixes, and optimizes source co
 ```bash
 git clone https://github.com/your-username/ai-code-optimizer.git
 cd ai-code-optimizer
-'''
+```
 2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Run the application
+```
+4. Run the application
+```bash
 python main.py
+```
 Usage
 Open the app
 Paste or type code
