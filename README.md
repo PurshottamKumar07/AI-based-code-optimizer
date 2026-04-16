@@ -77,10 +77,12 @@ Errors
 Optimization steps
 Score
 Project Structure
+```bash
 ai-code-optimizer/
 ├── main.py
 ├── README.md
 └── requirements.txt
+```
 
 ### Limitations
 
