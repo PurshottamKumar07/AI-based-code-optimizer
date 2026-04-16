@@ -81,7 +81,9 @@ ai-code-optimizer/
 ├── main.py
 ├── README.md
 └── requirements.txt
-Limitations
+
+### Limitations
+
 Works on basic syntax patterns
 Small ML dataset
 No multi-file support
@@ -91,7 +93,8 @@ More languages
 Better ML model
 AST-based analysis
 Web version
-License
+
+### License
 
 MIT License
 
