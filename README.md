@@ -1,125 +1,97 @@
-AI Code Optimizer
+# AI Code Optimizer
 
-An intelligent desktop application that analyzes, fixes, and optimizes source code using a combination of rule-based techniques and machine learning. The tool provides real-time error detection, automatic correction, and multiple compiler-level optimizations through an interactive GUI built with Tkinter.
+An intelligent desktop application that analyzes, fixes, and optimizes source code using rule-based techniques and machine learning. It provides real-time error detection, automatic correction, and multiple compiler-level optimizations through a Tkinter GUI.
 
-Features
-Language Detection
-Automatically detects C, C++, Java, and Python code.
-Error Detection
-Identifies common syntax and logical issues such as:
-Missing semicolons
-Type mismatches
-Incorrect loop syntax
-Missing colons in Python control statements
-Auto Fix
-Applies automatic corrections to detected issues:
-Fixes variable assignments
-Corrects loop headers
-Adds missing syntax elements
-Code Optimization
-Implements classical compiler optimization techniques:
-Constant Folding
-Constant Propagation
-Algebraic Simplification
-Copy Propagation
-Dead Code Elimination
-Common Subexpression Elimination
-Machine Learning Integration
-Uses a Naive Bayes model (from scikit-learn) to predict suitable optimization strategies.
-Syntax Highlighting
-Highlights:
-Keywords
-Strings
-Numbers
-Comments
-Real-Time Error Feedback
-Updates errors dynamically while typing.
-PDF Code Input
-Extracts code from PDF files using pypdf or PyPDF2.
-Voice Input
-Converts speech into code input using SpeechRecognition.
-Optimization Score
-Quantifies improvement based on code reduction.
-Theme Support
-Toggle between dark and light modes.
-Tech Stack
-Frontend / GUI
-Tkinter (Python standard GUI library)
-Backend Logic
-Python
-Machine Learning
-Naive Bayes (via scikit-learn)
-Libraries Used
-tkinter
-re (regular expressions)
-operator
-threading
-scikit-learn
-pypdf / PyPDF2
-speech_recognition
-Installation
-Clone the repository:
+---
+
+## Features
+
+### Language Detection
+- Supports C, C++, Java, and Python
+
+### Error Detection
+- Detects:
+  - Missing semicolons
+  - Type mismatches
+  - Invalid loops
+  - Missing colons (Python)
+
+### Auto Fix
+- Automatically:
+  - Fixes assignments
+  - Repairs loops
+  - Adds missing syntax
+
+### Code Optimization
+- Constant Folding
+- Constant Propagation
+- Algebraic Simplification
+- Copy Propagation
+- Dead Code Elimination
+- Common Subexpression Elimination
+
+### Machine Learning
+- Uses Naive Bayes (scikit-learn) for optimization suggestions
+
+### Other Features
+- Syntax highlighting
+- Real-time error checking
+- PDF code input
+- Voice input
+- Optimization score
+- Dark/light theme toggle
+
+---
+
+## Tech Stack
+
+- Python
+- Tkinter (GUI)
+- scikit-learn (ML)
+
+---
+
+## Installation
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/your-username/ai-code-optimizer.git
 cd ai-code-optimizer
-Install dependencies:
-pip install scikit-learn pypdf SpeechRecognition
-Run the application:
+2. Install dependencies
+pip install -r requirements.txt
+3. Run the application
 python main.py
 Usage
-Launch the application.
-Paste or type your code into the input editor.
-Use the available options:
-Optimize: Analyze and improve code
-PDF: Load code from a PDF file
-Voice: Input code via microphone
-Copy: Copy optimized output
-Save: Export results to a file
-Clear: Reset input and output
-Theme: Toggle appearance
+Open the app
+Paste or type code
+Click OPTIMIZE
 View:
 Fixed code
 Optimized code
-Optimization steps applied
-Error reports
-Optimization score
+Errors
+Optimization steps
+Score
 Project Structure
 ai-code-optimizer/
-│
-├── main.py            # Main application file
-├── README.md         # Project documentation
-└── requirements.txt  # Dependencies (optional)
-How It Works
-Input Processing
-Code is read from the editor, PDF, or voice input.
-Language Detection
-Pattern-based detection determines the programming language.
-Error Analysis
-Regular expressions identify syntax and semantic issues.
-Auto Fixing
-Corrections are applied line by line.
-Optimization Pipeline
-Code passes through multiple transformation stages:
-Constant propagation
-Simplification
-Folding
-Copy optimization
-Dead code removal
-Subexpression elimination
-Machine Learning Suggestion
-The trained model predicts the most relevant optimization.
-Output Generation
-Displays optimized code and performance score.
+├── main.py
+├── README.md
+└── requirements.txt
 Limitations
-Supports only basic syntax patterns for error detection.
-Machine learning model is trained on a small dataset.
-Complex multi-file or project-level optimization is not supported.
-PDF extraction depends on text-based PDFs (not scanned images).
+Works on basic syntax patterns
+Small ML dataset
+No multi-file support
+PDF must contain extractable text
 Future Improvements
-Expand ML dataset for better predictions
-Add support for more programming languages
-Integrate AST-based parsing for deeper analysis
-Enable web-based version using frameworks like React and FastAPI
-Add code complexity metrics and performance profiling
+More languages
+Better ML model
+AST-based analysis
+Web version
 License
 
-This project is open-source and available under the MIT License.
+MIT License
+
+
+---
+
+This one will render perfectly on GitHub.  
+If you still see weird formatting, it means your repo file has leftover characters — just replace the entire README with this.
