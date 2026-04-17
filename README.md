@@ -13,7 +13,13 @@ AI Code Optimizer is a smart desktop application that analyzes source code writt
 * Applying compiler-level optimizations
 * Providing AI-based optimization suggestions
 
-This project combines **Machine Learning + Compiler Design concepts + GUI development** into one powerful tool.
+This project combines **Machine Learning + Compiler Design + GUI Development** into one powerful tool.
+
+---
+
+## 📸 Application Preview
+
+![AI Code Optimizer Screenshot](./assets/screenshot.png)
 
 ---
 
@@ -77,12 +83,6 @@ This project combines **Machine Learning + Compiler Design concepts + GUI develo
 * **Text Processing:** Regex
 * **PDF Handling:** pypdf
 * **Speech Recognition:** SpeechRecognition
-
----
-
-## 📸 Screenshots
-
-> *(Add screenshots here for better presentation)*
 
 ---
 
@@ -150,17 +150,22 @@ The system calculates a score based on:
 * Advanced static code analysis
 * Integration with online compilers
 * Deep learning-based optimization suggestions
-* VS Code extension version
+* VS Code extension
 
 ---
 
 ## 🎯 Use Cases
 
-* Students learning **Compiler Design**
+* Compiler Design learning
+* Final Year Projects
 * Code optimization practice
-* Academic projects & demonstrations
-* Beginners improving coding skills
+* Beginner coding improvement
 
 ---
 
 ## 👨‍💻 Author
+
+Shantanu Chauhan
+Ashish Kumar Jha
+Purshottam Kumar
+Vaibhav Mishra
