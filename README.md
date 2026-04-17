@@ -165,7 +165,7 @@ The system calculates a score based on:
 
 ## 👨‍💻 Author
 
-Shantanu Chauhan
-Ashish Kumar Jha
-Purshottam Kumar
-Vaibhav Mishra
+**Shantanu Chauhan**
+**Ashish Kumar Jha**
+**Purshottam Kumar**
+**Vaibhav Mishra**
